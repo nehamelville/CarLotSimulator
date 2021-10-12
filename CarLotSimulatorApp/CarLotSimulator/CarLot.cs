@@ -5,9 +5,10 @@ namespace CarLotSimulator
 {
     public class CarLot
     {
+        public static int numberOfCars=0;
         public CarLot()
         {
-           
+            
         }
 
         public List<Car> CarList
@@ -15,5 +16,6 @@ namespace CarLotSimulator
             get;
             set;
         }
+        
     }
 }
